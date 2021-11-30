@@ -1,7 +1,33 @@
 
 
 <?php
-
+$navbarMenu= [
+    [
+        "text"=>"Introduzione",
+        "link"=>"#",
+        "active"=>false,
+    ],
+    [
+        "text"=>"Norme sulla privacy",
+        "link"=>"#",
+        "active"=>false,
+    ],
+    [
+        "text"=>"Termini di servizio",
+        "link"=>"#",
+        "active"=>false,
+    ],
+    [
+        "text"=>"Tecnologie",
+        "link"=>"#",
+        "active"=>false,
+    ],
+    [
+        "text"=>"Domande frequenti",
+        "link"=>"#",
+        "active"=>true,
+    ],
+];
 $faq= 
 [
     [
@@ -130,6 +156,7 @@ $faq=
 ];
 
 
+
 /* foreach ($faq as $section => $value) {
     $question= $value["question"];
     $answer= $value["answer"];
@@ -153,6 +180,9 @@ $faq=
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Domande frequenti-Privacy e Termini</title>
 </head>
 <body>
@@ -172,17 +202,26 @@ $faq=
             </div>
         </div>
         <nav>
+            
             <ul class="my_nav ms-3">
-                <li><a href="#">Introduzione</a></li>
-                <li><a href="#">Introduzione</a></li>
-                <li><a href="#">Introduzione</a></li>
-                <li><a href="#">Introduzione</a></li>
-                <li class="active"><a href="#">Introduzione</a></li>
+                <?php
+                foreach ($navbarMenu as $voce) {
+                    $text= $voce["text"];
+                    $link= $voce["link"];
+                    $active= $voce["active"];
+                ?>
+
+                    <li><a href="<?php echo $link ?>"><?php echo $text ?></a></li>
+
+                <?php
+                }
+                ?>
+                
             </ul>
         </nav>
     </header>
     <main>
-        <div class="container">
+        <div class="my_container">
 
                 <!--  ciclo  padre che stampa domanda e <ul>-->
                 <?php 

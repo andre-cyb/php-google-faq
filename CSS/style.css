@@ -1,3 +1,6 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
 header {
     border-bottom: 1px solid rgb(177, 177, 177);
 }
@@ -7,7 +10,7 @@ header a{
 }
 
 header .logo_section a{
-    font-size: 23px;
+    font-size: 20px;
 }
 /* .logo_section img{
     vertical-align: middle;
@@ -25,14 +28,17 @@ header .logo_section a{
 
 .my_nav li{
  display: inline-block;
- line-height: 40px;
+ line-height: 30px;
  margin-right:25px;
 }
 .active{
  border-bottom: 3px solid #3367D6;
 }
-
-.container ul{
+.my_container{
+    margin: auto;
+    width: 1000px;
+}
+.my_container ul{
     list-style: none;
     padding-left: 0;
 }
