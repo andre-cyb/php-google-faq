@@ -28,17 +28,24 @@ header .logo_section a{
 
 .my_nav li{
  display: inline-block;
- line-height: 30px;
- margin-right:25px;
+ line-height: 36px;
+ margin-right:26px;
 }
 .active{
  border-bottom: 3px solid #3367D6;
 }
 .my_container{
+    padding: 40px 0px;
     margin: auto;
     width: 1000px;
 }
 .my_container ul{
     list-style: none;
     padding-left: 0;
+}
+.my_container ul h4{
+    color: #3C4043;
+}
+.my_container ul p a{
+    text-decoration: none;
 }
