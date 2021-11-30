@@ -1,3 +1,19 @@
+header a{
+    text-decoration: none;
+    color: #696568;
+}
+
+header .logo_section a{
+    font-size: 23px;
+}
+/* .logo_section img{
+    vertical-align: middle;
+} */
+.menu_icon{
+    margin: 0px 20px;
+    vertical-align: middle;
+}
+
 .container ul{
     list-style: none;
     padding-left: 0;

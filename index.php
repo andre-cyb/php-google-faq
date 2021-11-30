@@ -152,18 +152,34 @@ $faq=
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
     <title>Domande frequenti-Privacy e Termini</title>
 </head>
 <body>
     <header>
-        <div class="p-3">
-            <div>
-                <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
-                <span>Privacy e termini</span>
+        <div class="p-2 d-flex justify-content-between align-items-center">
+            <div class="logo_section ms-2">
+                <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" width="75px" alt="">
+                <span><a href="#">Privacy e termini</a> </span>
 
             </div>
-            <div></div>
+            <div>
+                <div class="menu_icon d-inline">
+                <i class="fas fa-bars"></i>
+                </div>
+                <img src="IMG/avatar_7.jpg" class="rounded-circle me-2 " width="40px" alt="">
+                
+            </div>
         </div>
+        <nav>
+            <ul class="">
+                <li><a href="#">Introduzione</a></li>
+                <li><a href="#">Introduzione</a></li>
+                <li><a href="#">Introduzione</a></li>
+                <li><a href="#">Introduzione</a></li>
+                <li><a href="#">Introduzione</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <div class="container">
