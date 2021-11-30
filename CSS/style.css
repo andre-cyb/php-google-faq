@@ -12,27 +12,25 @@ header a{
 header .logo_section a{
     font-size: 20px;
 }
-/* .logo_section img{
-    vertical-align: middle;
-} */
+
 .menu_icon{
     margin: 0px 20px;
     vertical-align: middle;
 }
-
 .my_nav {
     list-style: none;
     padding-left: 0;
     margin: 0;
 }
-
 .my_nav li{
  display: inline-block;
  line-height: 36px;
  margin-right:26px;
 }
-.active{
- border-bottom: 3px solid #3367D6;
+.my_nav li:last-child{
+    color: #3367D6;
+    border-bottom: 3px solid #3367D6;
+
 }
 .my_container{
     padding: 40px 0px;

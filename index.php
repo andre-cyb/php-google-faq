@@ -188,16 +188,18 @@ $faq=
                 <span><a href="#">Privacy e termini</a> </span>
 
             </div>
-            <div>
+            <div class="d-flex align-items-center">
                 <div class="menu_icon d-inline">
                 <i class="fas fa-bars"></i>
                 </div>
-                <img src="IMG/avatar_7.jpg" class="rounded-circle me-2 " width="40px" alt="">
+                <div class="profile_photo">
+
+                    <img src="IMG/pexels-photo.jpg" class="rounded-circle me-2 " width="40px" alt="">
+                </div>
                 
             </div>
         </div>
         <nav>
-            
             <ul class="my_nav ms-3">
                 <?php
                 foreach ($navbarMenu as $voce) {
@@ -205,13 +207,10 @@ $faq=
                     $link= $voce["link"];
                     
                 ?>
-
                     <li><a href="<?php echo $link ?>"><?php echo $text ?></a></li>
-
                 <?php
                 }
                 ?>
-                
             </ul>
         </nav>
     </header>
@@ -233,7 +232,7 @@ $faq=
                         foreach ($answer as $paragraph) {
                             /* echo $paragraph; */
                         ?>
-                        <li><p><?php echo $paragraph ?></p></li>
+                        <li><p class="mt-4"><?php echo $paragraph ?></p></li>
                         <?php
                         }
                         ?>
