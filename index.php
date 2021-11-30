@@ -143,11 +143,6 @@ $faq=
 
 
 
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -160,7 +155,16 @@ $faq=
     <title>Domande frequenti-Privacy e Termini</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="p-3">
+            <div>
+                <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
+                <span>Privacy e termini</span>
+
+            </div>
+            <div></div>
+        </div>
+    </header>
     <main>
         <div class="container">
 
