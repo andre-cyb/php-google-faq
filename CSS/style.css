@@ -1,3 +1,6 @@
+header {
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
 header a{
     text-decoration: none;
     color: #696568;
@@ -12,6 +15,21 @@ header .logo_section a{
 .menu_icon{
     margin: 0px 20px;
     vertical-align: middle;
+}
+
+.my_nav {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.my_nav li{
+ display: inline-block;
+ line-height: 40px;
+ margin-right:25px;
+}
+.active{
+ border-bottom: 3px solid #3367D6;
 }
 
 .container ul{

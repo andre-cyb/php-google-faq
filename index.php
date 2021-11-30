@@ -172,12 +172,12 @@ $faq=
             </div>
         </div>
         <nav>
-            <ul class="">
+            <ul class="my_nav ms-3">
                 <li><a href="#">Introduzione</a></li>
                 <li><a href="#">Introduzione</a></li>
                 <li><a href="#">Introduzione</a></li>
                 <li><a href="#">Introduzione</a></li>
-                <li><a href="#">Introduzione</a></li>
+                <li class="active"><a href="#">Introduzione</a></li>
             </ul>
         </nav>
     </header>
